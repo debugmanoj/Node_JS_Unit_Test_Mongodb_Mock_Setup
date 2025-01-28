@@ -4,6 +4,7 @@ import { validateNotEmpty, validateMongoDuplicationError, validateStringEquality
 import { dbConnect, dbDisconnect } from "./utils/test-utils/dbHandler.utils";
 
 
+// Write fibonaaci seies
 beforeAll(async () => dbConnect());
 afterAll(async () => dbDisconnect());
 
